@@ -1,5 +1,7 @@
 # Persistent Work
 
+**English** | [日本語](README.ja.md)
+
 **Persistent Work** is a minimal, vendor-neutral protocol for AI work that must survive a single run, session, model, or executor.
 
 > **Work outlives run, session, model, and executor.**
