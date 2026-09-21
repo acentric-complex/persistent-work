@@ -81,4 +81,4 @@ Persistent Workは、その思想を「仕事の状態と所有権」に適用�
 
 ## License
 
-MIT Licenseです。[LICENSE](LICENSE) を参照してください。
+MIT Licenseで公開しています。商用利用・改変・再配布を含め、広く利用できます。利用条件や免責事項の詳細は [LICENSE](LICENSE) を参照してください。
