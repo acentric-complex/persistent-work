@@ -1,0 +1,44 @@
+protocol: ai-work/v0.1
+work_id: ownership-canary-v1
+status: DONE
+
+goal: Create result.txt containing exactly persistent-work-canary-v1, verify the result, and finish the work.
+constraints:
+  - result.txt must contain exactly persistent-work-canary-v1.
+
+authority:
+  allowed:
+    - reversible repository-local file creation and updates required by the goal
+    - verification of repository state
+    - durable checkpoint updates in WORK.yaml
+  human_gate:
+    - permission or authority changes
+    - costs or purchases
+    - irreversible or destructive changes
+    - public-scope changes
+    - secrets or sensitive credentials
+    - semantic or value decisions not determined by the goal
+
+current:
+  summary: Target artifact created and independently read back; exact content verified.
+  resume_from: Work complete.
+  next_action: null
+  resume_when: null
+
+human_gate:
+  question: null
+
+completion:
+  criteria:
+    - target artifact exists
+    - target content is exactly persistent-work-canary-v1
+    - result is independently read back and verified
+  outcome: PASS — all completion criteria satisfied.
+
+evidence:
+  - protocol discovered from repository entry point
+  - durable Work object created before substantive work
+  - target artifact created
+  - target artifact read back and exact content verified
+  - final state checkpointed as DONE
+updated_at: 2026-09-21T15:58:00+09:00
