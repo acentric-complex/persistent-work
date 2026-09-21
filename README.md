@@ -59,4 +59,4 @@ Persistent Work is published by **Acentric Complex**.
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+Released under the MIT License. Commercial use, modification, and redistribution are broadly permitted. See [LICENSE](LICENSE) for the full terms and disclaimer.
